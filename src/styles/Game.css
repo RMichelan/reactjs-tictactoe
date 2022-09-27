@@ -1,0 +1,46 @@
+.Container {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #CBA0AE;
+    flex-direction: column;
+}
+
+
+
+.Button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+
+.Button-Tile-Row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #AF7AB3;
+}
+
+.Button-Tile {
+    background-color: #80558C;
+    border: none;
+    color: #E4D192;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 50px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
