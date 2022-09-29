@@ -8,16 +8,24 @@
 }
 
 
+.Header-Winner {
+    font-size: 35px;
+    font-weight: 500;
+    color: #354259;
+}
 
-.Button {
-    background-color: #4CAF50;
+
+.Button-Replay {
     border: none;
-    color: white;
-    padding: 15px 32px;
+    border-radius: 50px;
+    color: #FFFFFF;
+    background-color: #354259;
+    padding: 15px;
+    width: 200px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
+    margin-top: 30px;
 }
 
 
