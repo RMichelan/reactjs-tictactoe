@@ -69,6 +69,10 @@ export default function Game() {
       setCanPlay(false);
       setWinner("O vencedor é " + tile7);
 
+    } else if ((tile1 && tile2 && tile3 && tile4 && tile5 && tile6 && tile7 && tile8 && tile9) != '') {
+      setCanPlay(false);
+      setWinner("Empate");
+
     }
   }
 
@@ -214,7 +218,9 @@ export default function Game() {
 
   return (
     <div className="Container">
+
       <p className='Header-Winner'>{ winner }</p>
+
       <div className='Button-Tile-Row'>
         <a href='#' className='Button-Tile' id='btn1' onClick={() => setTile(1)}>{tile1}</a>
         <a href='#' className='Button-Tile' id='btn2' onClick={() => setTile(2)}>{tile2}</a>
@@ -230,7 +236,9 @@ export default function Game() {
         <a href='#' className='Button-Tile' id='btn8' onClick={() => setTile(8)}>{tile8}</a>
         <a href='#' className='Button-Tile' id='btn9' onClick={() => setTile(9)}>{tile9}</a>
       </div>
+
       <a className='Button-Replay' href='#' onClick={() => restartGame()}>Reiniciar</a>
+
     </div>
   );
 }
